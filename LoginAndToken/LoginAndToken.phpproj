@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Name>LoginAndToken</Name>
+    <ProjectGuid>db6081ad-856c-4ccf-bfb9-f0ce8b986151</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <RootNamespace>
+    </RootNamespace>
+    <ProjectTypeGuids>{A0786B88-2ADB-4C21-ABE8-AA2D79766269}</ProjectTypeGuids>
+    <AssemblyName>LoginAndToken</AssemblyName>
+    <SaveServerSettingsInUserFile>false</SaveServerSettingsInUserFile>
+    <Runtime>PHP</Runtime>
+    <RuntimeVersion>5.6</RuntimeVersion>
+    <EnvName>PHPDev</EnvName>
+    <PHPDevHostName>localhost</PHPDevHostName>
+    <PHPDevAutoPort>true</PHPDevAutoPort>
+    <PHPDevRouting>index.php</PHPDevRouting>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+    <IncludeDebugInformation>true</IncludeDebugInformation>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+    <IncludeDebugInformation>false</IncludeDebugInformation>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="activate.php" />
+    <Compile Include="classes\password.php" />
+    <Compile Include="classes\phpmailer\exception.php" />
+    <Compile Include="classes\phpmailer\mail.php" />
+    <Compile Include="classes\phpmailer\phpmailer.php" />
+    <Compile Include="classes\phpmailer\pop3.php" />
+    <Compile Include="classes\phpmailer\smtp.php" />
+    <Compile Include="classes\user.php" />
+    <Compile Include="includes\config.php" />
+    <Compile Include="index.php" />
+    <Compile Include="layout\footer.php" />
+    <Compile Include="layout\header.php" />
+    <Compile Include="login.php" />
+    <Compile Include="logout.php" />
+    <Compile Include="memberpage.php" />
+    <Compile Include="reset.php" />
+    <Compile Include="resetPassword.php" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="classes\" />
+    <Folder Include="classes\phpmailer\" />
+    <Folder Include="includes\" />
+    <Folder Include="layout\" />
+    <Folder Include="style\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="db.sql" />
+    <Content Include="README.md" />
+    <Content Include="style\main.css" />
+  </ItemGroup>
+</Project>

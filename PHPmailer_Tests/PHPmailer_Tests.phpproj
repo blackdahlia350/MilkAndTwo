@@ -2,13 +2,13 @@
 <Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
-    <Name>MilkAndTwo</Name>
-    <ProjectGuid>e6eb3d1e-e045-427b-84d9-8f9fa2e72b04</ProjectGuid>
+    <Name>PHPmailer_Tests</Name>
+    <ProjectGuid>c70a2519-3267-40e6-9683-cfd597d6f2e9</ProjectGuid>
     <OutputType>Library</OutputType>
     <RootNamespace>
     </RootNamespace>
     <ProjectTypeGuids>{A0786B88-2ADB-4C21-ABE8-AA2D79766269}</ProjectTypeGuids>
-    <AssemblyName>MilkAndTwo</AssemblyName>
+    <AssemblyName>PHPmailer_Tests</AssemblyName>
     <SpecificPageValue>index.php</SpecificPageValue>
     <StartAction>SpecificPage</StartAction>
   </PropertyGroup>
@@ -19,28 +19,19 @@
     <IncludeDebugInformation>false</IncludeDebugInformation>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="create.php" />
-    <Compile Include="database.php" />
-    <Compile Include="delete.php" />
     <Compile Include="index.php" />
-    <Compile Include="phpinfo.php" />
-    <Compile Include="read.php" />
-    <Compile Include="update.php" />
+    <Compile Include="PHPMailer\class.phpmailer.php" />
+    <Compile Include="PHPMailer\class.smtp.php" />
+    <Compile Include="PHPMailer\PHPMailerAutoload.php" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="css\" />
-    <Folder Include="img\" />
-    <Folder Include="js\" />
+    <Folder Include="PHPMailer\" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="css\bootstrap-responsive.css" />
-    <Content Include="css\bootstrap-responsive.min.css" />
-    <Content Include="css\bootstrap.css" />
-    <Content Include="css\bootstrap.min.css" />
-    <Content Include="img\glyphicons-halflings-white.png" />
-    <Content Include="img\glyphicons-halflings.png" />
-    <Content Include="js\bootstrap.js" />
-    <Content Include="js\bootstrap.min.js" />
-    <Content Include="web.config" />
+    <Content Include="CodexWorld-License.txt" />
+    <Content Include="PHPMailer\.gitignore" />
+    <Content Include="PHPMailer\.scrutinizer.yml" />
+    <Content Include="PHPMailer\.travis.yml" />
+    <Content Include="ReadMe.txt" />
   </ItemGroup>
 </Project>

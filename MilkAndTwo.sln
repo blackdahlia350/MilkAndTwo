@@ -5,6 +5,12 @@ VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{A0786B88-2ADB-4C21-ABE8-AA2D79766269}") = "MilkAndTwo", "MilkAndTwo\MilkAndTwo.phpproj", "{E6EB3D1E-E045-427B-84D9-8F9FA2E72B04}"
 EndProject
+Project("{A0786B88-2ADB-4C21-ABE8-AA2D79766269}") = "LoginAndToken", "LoginAndToken\LoginAndToken.phpproj", "{DB6081AD-856C-4CCF-BFB9-F0CE8B986151}"
+EndProject
+Project("{A0786B88-2ADB-4C21-ABE8-AA2D79766269}") = "OtherTests", "OtherTests\OtherTests.phpproj", "{7CE6CA36-3D2D-4FA5-AB5B-56F48A2BBE6E}"
+EndProject
+Project("{A0786B88-2ADB-4C21-ABE8-AA2D79766269}") = "PHPmailer_Tests", "PHPmailer_Tests\PHPmailer_Tests.phpproj", "{C70A2519-3267-40E6-9683-CFD597D6F2E9}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -13,6 +19,12 @@ Global
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{E6EB3D1E-E045-427B-84D9-8F9FA2E72B04}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{E6EB3D1E-E045-427B-84D9-8F9FA2E72B04}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DB6081AD-856C-4CCF-BFB9-F0CE8B986151}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DB6081AD-856C-4CCF-BFB9-F0CE8B986151}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7CE6CA36-3D2D-4FA5-AB5B-56F48A2BBE6E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7CE6CA36-3D2D-4FA5-AB5B-56F48A2BBE6E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C70A2519-3267-40E6-9683-CFD597D6F2E9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C70A2519-3267-40E6-9683-CFD597D6F2E9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
